@@ -23,6 +23,15 @@ p {
     padding-top: 15px;
 }
 
+footer p {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    /* add padding top as zero because it is getting 15 from 
+    the previous p{} incorrectly */
+    padding-top: 0px;
+}
+
 img {
     /* place image on its own line using display block */
     /* to center, place m left n me left to auto and width 50% */
@@ -67,13 +76,4 @@ div {
 #green {
     background-color: #008000;
     text-align: left;
-}
-
-footer p {
-    text-align: center;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    /* add padding top as zero because it is getting 15 from 
-    the previous p{} incorrectly */
-    padding-top: 0px;
 }
