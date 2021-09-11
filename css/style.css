@@ -1,0 +1,76 @@
+body {
+    /* font to white and background color to black */
+    background-color: #000;
+    color: #fff;
+    /* set font to tnr with backup sans-serif */
+    font-family: 'Times New Roman', Tahoma;
+}
+h1 {
+    font-size: 64px;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 32px;
+    /* text-shado: x off y off blur color */
+    text-shadow: 4px 2px 2px #808080;
+    /* what is offset? 4px horz, 4px vert, 2px blur */
+}
+
+p {
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+img {
+    /* place image on its own line using display block */
+    /* to center, place m left n me left to auto and width 50% */
+    /* here is et width to 550 (as long as its not 100% 
+    m left n m right aut0 should work */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+div {
+    /* set the min height to 150, but setting height to auto
+    after should allow for height to auto adjust if needed */
+    min-height: 150px;
+    height: auto;
+    padding: 25px;
+}
+#red {
+    background-color: #ff0000;
+    text-align: right;
+}
+
+#blue {
+    background-color: #00f;
+    text-align: left;
+}
+
+#yellow {
+    background-color: #ff0;
+    text-align: right;
+    }
+
+#yellow h2, #yellow p {
+    color:#000;
+}
+
+#yellow h2 {
+    text-shadow: 4px 4px 2px #c7e2c7;
+}
+
+#green {
+    background-color: #008000;
+    text-align: left;
+}
+
+footer p {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
