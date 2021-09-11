@@ -3,7 +3,7 @@ body {
     background-color: #000;
     color: #fff;
     /* set font to tnr with backup sans-serif */
-    font-family: 'Times New Roman', Tahoma;
+    font-family: 'Times New Roman', sans-serif;
 }
 h1 {
     font-size: 64px;
@@ -14,7 +14,7 @@ h1 {
 h2 {
     font-size: 32px;
     /* text-shado: x off y off blur color */
-    text-shadow: 4px 2px 2px #808080;
+    text-shadow: 4px 4px 2px #808080;
     /* what is offset? 4px horz, 4px vert, 2px blur */
 }
 
@@ -73,4 +73,7 @@ footer p {
     text-align: center;
     padding-bottom: 10px;
     padding-right: 10px;
+    /* add padding top as zero because it is getting 15 from 
+    the previous p{} incorrectly */
+    padding-top: 0px;
 }
